@@ -30,3 +30,13 @@ body {
   // Force set fonts for reset css. //
   font-family: 'Mona Sans', -apple-system, BlinkMacSystemFont, 'Noto Sans JP', Arial, 'Segoe UI', sans-serif !important;
 }
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-white);
+}
